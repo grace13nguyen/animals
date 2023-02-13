@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link href="stylewebsite.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@1000&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Silkscreen' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Tai Heritage Pro' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#container1">Home</a></li>
+          <li><a href="#container2">SeaFood!</a></li>
+          <li><a href="#container3">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+    <div class = "container1" id = "container1">
+      <div class = "section">
+        
+        <h1>Saving Oceanic Animals</h1>
+        <h2>Many aquatic animals are severely endangered due to the massive amounts of overfishing and capture to feed a hungry population. As we dwelve further into the extinction of these animals, being aware of what you eat is key. This is a website to search for the seafood that you are eatinf right now, and how you can improve your intake of seafood to improve the earth!</h2>
+      </div>
+      <div class="section">
+         <h2>Looking for more ways to help the Aquaic Animals? Take a peak into these Links!</h2>
+          <ul>
+            <li><a href="#https://oceana.org/">Oceana</a></li>
+            <li><a href="#http://www.oceanconservancy.org/">The Ocean Conservatory</a></li>
+            <li><a href="#http://www.projectaware.org/">Project Awareness</a></li>
+            <li><a href="#https://www.globalgiving.org/fundraisers/nchspring23/">NorCal Fundraisers</a></li>
+          </ul>
+      </div>
+   
+    </div>
+      <!--displays the seafood-->
+      <div class = "container2" id ="container2">
+        <h1>How EcoFriendly Is Your SeaFood?</h1>
+        <h2>Hover over and search for seafood that you have consumed and see how ecofriendly that it may be!</h2>
+      <div class="grid">
+          <!--tuna-->
+          <div class="card">
+            <h2>Bluefin Tuna</h2>
+            <p>Thunnus Thynnus</p>
+            <div class = "image-container">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaw7kXcdfn7CXrH8KAcNQUASaI1rzY8SVl-A&usqp=CAU" alt="BlueFin Tuna">
+            </div>
+              <button type="click" class="btn" onclick="openPopup1()">Click For More Info!</button>
+          </div>
+          <!--salmon-->
+          <div class="card">
+              <h2>Alaskan Salmon</h2>
+              <p>Oncorhynchus Nerka</p>
+              <div class = "image-container">
+                <img src="https://media.npr.org/assets/img/2010/10/26/salmon-52ca831a0ac09bfede281741055831b15a03baba-s1100-c50.jpg" alt="Salmon" class=" image">
+              </div>
+              <button type="click" class="btn" onclick="openPopup2()">Click For More Info!</button>
+            </div>
+
+          <!--shrimp-->
+          <div class="card ">
+              <h2>WhiteTailed Shrimp</h2>
+              <p>Litopenaeus Setiferus</p>
+              <div class = "image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqn5dKKUSh4Ghjr30YnEBSjEV9mxh7JV3kPg&usqp=CAU" alt="Shrimp">
+              </div>
+              <button type="click" class="btn" onclick="openPopup3()">Click For More Info!</button>
+          </div>
+          <!--lobster-->
+          <div class="card">
+              <h2>American Lobster</h2>
+              <p>Homarus Americanus</p>
+              <div class = "image-container">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5XWr5aS0BoqZnrHxQWIwEAtcM6QmQjhMrCw&usqp=CAU"alt="Lobster">
+              </div>
+              <button type="click" class="btn" onclick="openPopup4()">Click For More Info!</button>
+                  </div>
+          </div>
+      </div>
+      <div class = "container3" id = "container3">
+        <h1>
+          This Website was made in acknolwdgements for the Enviornment of endangered aquatic animals and to the 2023 Hackathon Competition for NorCal. If you would like to look more into the program of norCal, please click the link below:
+        </h1>
+        <h2><a href="#https://nchacks-1.devpost.com/">NorCal</a></h2>
+      </div>
+  
+    <!--displays the popups-->
+    <!--tuna-->
+    <div class="popup1" id="popupid1">
+        <h3>Ways that are caught:</h3>
+       <p>Alaskan Salmon are either caught in a responsible manner or are farmed in large aquacultures. Farmers will make large areas of aquaculture in ponds or bodies of water where they will make hundreds of thousands of fish in order to ship out to eat. They are an abundant species to farm and catch, and if are eaten in a super responsible manner.
+    </p>
+    <h3>Is it ECO-friendly for your body?</h3>
+    <p>Salmon is a very nutritious source of omega-3 and is low in contaminants due to the way that it is farmed and caught. It can be a replacement for Bluefin tuna and farmed Atlantic salmon. </p>
+      <h3>Other Alternatives</h3>
+      <ul>
+        <li>fish</li>
+        <li>fish</li>
+        <li>fish</li>
+    </ul>
+    <button type="click" class="popbutton" onclick="closePopup1()">Close</button>
+    </div>
+    <!--salmon-->
+    <div class="popup2" id="popupid2">
+        <h3>Ways that are caught:</h3>
+       <p>Alaskan Salmon are either caught in a responsible manner or are farmed in large aquacultures. Farmers will make large areas of aquaculture in ponds or bodies of water where they will make hundreds of thousands of fish in order to ship out to eat. They are an abundant species to farm and catch, and if are eaten in a super responsible manner.
+    </p>
+    <h3>Is it ECO-friendly for your body?</h3>
+    <p>Salmon is a very nutritious source of omega-3 and is low in contaminants due to the way that it is farmed and caught. It can be a replacement for Bluefin tuna and farmed Atlantic salmon. </p>
+      <h3>Other Alternatives</h3>
+      <ul>
+        <li>Rainbow Trout</li>
+        <li>Arctic Char</li>
+        <li>Alaska Cod</li>
+    </ul>
+    <button type="click" class="popbutton" onclick="closePopup2()">Close</button>
+    </div>
+    <!--shrimp-->
+    <div class="popup3" id="popupid3">
+        <h3>Ways that are caught:</h3>
+       <p>Alaskan Salmon are either caught in a responsible manner or are farmed in large aquacultures. Farmers will make large areas of aquaculture in ponds or bodies of water where they will make hundreds of thousands of fish in order to ship out to eat. They are an abundant species to farm and catch, and if are eaten in a super responsible manner.
+    </p>
+    <h3>Is it ECO-friendly for your body?</h3>
+    <p>Salmon is a very nutritious source of omega-3 and is low in contaminants due to the way that it is farmed and caught. It can be a replacement for Bluefin tuna and farmed Atlantic salmon. </p>
+      <h3>Other Alternatives</h3>
+      <ul>
+        <li>fish</li>
+        <li>fish</li>
+        <li>fish</li>
+    </ul>
+    <button type="click" class="popbutton" onclick="closePopup3()">Close</button>
+    </div>
+    <!--lobster-->
+    <div class="popup4" id="popupid4">
+        <h3>Ways that are caught:</h3>
+        <p>Alaskan Salmon are either caught in a responsible manner or are farmed in large aquacultures. Farmers will make large areas of aquaculture in ponds or bodies of water where they will make hundreds of thousands of fish in order to ship out to eat. They are an abundant species to farm and catch, and if are eaten in a super responsible manner.</p>
+        <h3>Is it ECO-friendly for your body?</h3>
+        <p>Salmon is a very nutritious source of omega-3 and is low in contaminants due to the way that it is farmed and caught. It can be a replacement for Bluefin tuna and farmed Atlantic salmon. </p>
+        <h3>Other Alternatives</h3>
+        <ul>
+            <li>fish</li>
+            <li>fish</li>
+            <li>fish</li>
+        </ul>
+    <button type="click" class="popbutton" onclick="closePopup4()">Close</button>
+    </div>
+
+    </main>
+    <footer>
+      <p>Save the sea-creatures!</p>
+    </footer>
+
+    <script>
+        //tuna
+        let popup1 = document.getElementById("popupid1")
+        function openPopup1(){
+        popup1.classList.add("open-popup");
+        }   
+        function closePopup1(){
+        popup1.classList.remove("open-popup");
+        }   
+        let popup2 = document.getElementById("popupid2")
+        function openPopup2(){
+        popup1.classList.add("open-popup");
+        }   
+        function closePopup2(){
+        popup1.classList.remove("open-popup");
+        }   
+        let popup3 = document.getElementById("popupid3")
+        function openPopup3(){
+        popup1.classList.add("open-popup");
+        }   
+        function closePopup3(){
+        popup1.classList.remove("open-popup");
+        }   
+        let popup4 = document.getElementById("popupid4")
+        function openPopup4(){
+        popup1.classList.add("open-popup");
+        }   
+        function closePopup4(){
+        popup1.classList.remove("open-popup");
+        }   
+     </script>
+
+  </body>
+</html>
+</script>
+</html>

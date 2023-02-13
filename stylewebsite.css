@@ -1,0 +1,225 @@
+body {
+    background-image: linear-gradient(to bottom,#000000,#555a58);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  header {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(33, 165, 88, 0.2);
+    padding: 20px;
+    border: 20px solid hsla(0, 0%, 100%, 0);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgba(122, 178, 197, 0.0.2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: fixed;
+  }
+  .container1{
+    width: 100%;
+    height: 800px;    
+    margin:0 auto;
+    background-image: linear-gradient(to bottom right, #004075, #2478c7);
+    border-radius: 10px;
+  }
+  .container2{
+    text-align: center;
+    width: 100%;
+    height: 800px;
+    margin:0 auto;
+    background-image: linear-gradient(to bottom left,#2478c7, #82FDC4);
+    border-radius: 10px;
+  }
+  .container3{
+    width: 100%;
+    height: 400px;
+    margin:0 auto;
+    background-image: linear-gradient(to bottom right, #748d81, #004900);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .section{
+    padding: 20px;
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 80px;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: #c6d4c6e1;
+    padding: 20px;
+    border-radius: 5%;
+    border: 10xp solid black
+  }
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card img {
+    width: 100%;
+    height:100%;
+  }
+  .image-container {
+    width: 40%;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .btn{
+    font-family: 'Nunito';
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background:#6AF2F0;
+    color: #007575;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .popbutton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background:#059ec09f;
+    color: #007575;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .popup1{
+    position: fixed;
+    width: 40%;
+    height: fit-content;
+    background: #a8f9a9;
+    border-radius: 6px;
+    padding: 40px 40px;
+    color: #059DC0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+    margin-top: 10px;
+  }
+  .popup2{
+    position: fixed;
+    width: 80%;
+    background: #a8f9a9;
+    border-radius: 6px;
+    padding: 80px 50px;
+    color: #059DC0;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  .popup3{
+    position: fixed;
+    width: 80%;
+    background: #a8f9a9;
+    border-radius: 6px;
+    padding: 80px 50px;
+    color: #059DC0;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  .popup4{
+    position: fixed;
+    width: 80%;
+    background: #a8f9a9;
+    border-radius: 6px;
+    padding: 80px 50px;
+    color: #059DC0;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  .open-popup{
+    visibility: visible;
+    top: 400px;;
+    transform: translate(-50%,-50%) scale(1);
+  }
+
+h1{
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  color: #CAE1FF;
+}
+
+h3{
+  font-family: 'Tai Heritage Pro', sans-serif;
+  font-size: 30px;
+  color: black;
+  border-color: #007575;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: black;
+  border-color: #007575;
+}
+ul{
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: disc;
+  padding-left: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  color: black;
+  border-color: #007575;
+}
+
+  
+  
+  
