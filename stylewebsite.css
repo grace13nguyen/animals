@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
   }
+  
   header {
     font-family: 'Nunito', sans-serif;
     background-color: rgba(33, 165, 88, 0.2);
